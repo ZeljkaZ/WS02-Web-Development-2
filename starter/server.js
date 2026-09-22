@@ -171,7 +171,7 @@ function handleServerError(res, error) {
 // TODO: Task 1 - Start the Server
 // ========================================
 // Start listening for requests on PORT 3000
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on http://localhost:${PORT}`);
     
     
